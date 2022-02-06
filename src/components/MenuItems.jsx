@@ -13,34 +13,22 @@ function MenuItems() {
         display: "flex",
         fontSize: "17px",
         fontWeight: "500",
-        width: "100%",
+        width: "calc(100vw - 450px)",
         justifyContent: "center",
       }}
       defaultSelectedKeys={[pathname]}
     >
-      <Menu.Item key="/quickstart">
-        <NavLink to="/quickstart">🚀 Quick Start</NavLink>
+      <Menu.Item key="/homepage">
+        <NavLink to="/homepage">🌱 Home page</NavLink>
+      </Menu.Item>
+      <Menu.Item key="/comicblock">
+        <NavLink to="/comicblock">📄 Comic blocks</NavLink>
+      </Menu.Item>
+      <Menu.Item key="/comics">
+        <NavLink to="/comics">📗 Comics</NavLink>
       </Menu.Item>
       <Menu.Item key="/wallet">
-        <NavLink to="/wallet">👛 Wallet</NavLink>
-      </Menu.Item>
-      <Menu.Item key="/1inch">
-        <NavLink to="/1inch">🏦 Dex</NavLink>
-      </Menu.Item>
-      <Menu.Item key="onramp">
-        <NavLink to="/onramp">💵 Fiat</NavLink>
-      </Menu.Item>
-      <Menu.Item key="/erc20balance">
-        <NavLink to="/erc20balance">💰 Balances</NavLink>
-      </Menu.Item>
-      <Menu.Item key="/erc20transfers">
-        <NavLink to="/erc20transfers">💸 Transfers</NavLink>
-      </Menu.Item>
-      <Menu.Item key="/nftBalance">
-        <NavLink to="/nftBalance">🖼 NFTs</NavLink>
-      </Menu.Item>
-      <Menu.Item key="/contract">
-        <NavLink to="/contract">📄 Contract</NavLink>
+        <NavLink to="/wallet">👛 Donate to author</NavLink>
       </Menu.Item>
     </Menu>
   );
