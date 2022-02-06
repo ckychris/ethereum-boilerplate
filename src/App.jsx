@@ -167,6 +167,14 @@ const App = ({ isServerInfo }) => {
           >
             Polygon
           </a>
+          {" & "}
+          <a
+            href="https://web3auth.io"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Web3Auth
+          </a>
         </Text>
       </Footer>
     </Layout>
