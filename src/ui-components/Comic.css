@@ -52,6 +52,8 @@ body {
   margin: 0.5em;
   padding: 0.5em 1em;
   position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .speech-right {
@@ -62,6 +64,7 @@ body {
   margin: 0.5em;
   padding: 0.5em 1em;
   position: absolute;
+  top: 0;
   right: 0;
 }
 
@@ -161,4 +164,20 @@ body {
 
 .panel:nth-child(4n + 4) {
   background-image: radial-gradient(circle, lightcoral, tomato);
+}
+
+.yellow {
+  background-image: radial-gradient(circle, yellow, orange) !important;
+}
+
+.blue {
+  background-image: radial-gradient(circle, lightblue, deepskyblue) !important;
+}
+
+.green {
+  background-image: radial-gradient(circle, palegreen, yellowgreen) !important;
+}
+
+.red {
+  background-image: radial-gradient(circle, lightcoral, tomato) !important;
 }

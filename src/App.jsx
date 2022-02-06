@@ -23,7 +23,6 @@ import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
 import { CreateComic } from "components/CreateComic/CreateComic";
 import CreateComicBlock from "components/CreateComicBlock/CreateComicBlock";
-import Login from "components/Login";
 const { Header, Footer } = Layout;
 
 const styles = {
@@ -78,7 +77,6 @@ const App = ({ isServerInfo }) => {
             <Chains />
             <NativeBalance />
             <Account />
-            <Login />
           </div>
         </Header>
 
