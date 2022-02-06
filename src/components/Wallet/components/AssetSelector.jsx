@@ -27,6 +27,10 @@ export default function AssetSelector({ setAsset, style }) {
     setAsset(token);
   }
 
+  // Temp fix not available balance
+  if (!fullBalance?.balance) return null;
+  if (!fullBalance?.decimals) return null;
+
   return (
     <Select onChange={handleChange} size="large" style={style}>
       {fullBalance &&
