@@ -21,7 +21,7 @@ import Contract from "components/Contract/Contract";
 import Text from "antd/lib/typography/Text";
 import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
-import { CreateComic } from "components/CreateComic/CreateComic";
+import CreateComic from "components/CreateComic/CreateComic";
 import CreateComicBlock from "components/CreateComicBlock/CreateComicBlock";
 const { Header, Footer } = Layout;
 
