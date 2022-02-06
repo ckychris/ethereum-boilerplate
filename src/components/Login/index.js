@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useCallback } from "react";
 import OpenLogin from "@toruslabs/openlogin";
 import Web3 from "web3";
+// eslint-disable-next-line no-unused-vars
 import AccountInfo from "../AccountInfo";
 import google from "./images/google.png";
 
@@ -71,6 +72,7 @@ const polygonConnector = {
 function Login() {
   const [loading, setLoading] = useState(false);
   const [openlogin, setSdk] = useState(undefined);
+  // eslint-disable-next-line no-unused-vars
   const [walletInfo, setUserAccountInfo] = useState(null);
   // eslint-disable-next-line no-unused-vars
   const [level, setChainLevel] = useState("l1"); // "l1" or "l2"
@@ -150,7 +152,7 @@ function Login() {
       setLoading(false);
     }
   }
-
+  // eslint-disable-next-line no-unused-vars
   const handleLogout = async (fastLogin = false) => {
     setLoading(true);
     await openlogin.logout({
@@ -178,26 +180,11 @@ function Login() {
         </div>
       ) : (
         <div>
-          {openlogin && openlogin.privKey ? (
-            <div>
-              <span>
-                Connected to :{" "}
-                {level === "l1" ? "Goerli Network" : "Mumbai Matic testnet"}{" "}
-              </span>
-              <AccountInfo
-                handleLogout={handleLogout}
-                loading={loading}
-                privKey={openlogin?.privKey}
-                walletInfo={walletInfo}
-              />
+          <div className="loginContainer">
+            <div onClick={handleLogin} className="btn">
+              <img src={google} alt="google" />
             </div>
-          ) : (
-            <div className="loginContainer">
-              <div onClick={handleLogin} className="btn">
-                <img src={google} alt="google" />
-              </div>
-            </div>
-          )}
+          </div>
         </div>
       )}
     </>
