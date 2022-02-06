@@ -32,6 +32,7 @@ const styles = {
     fontFamily: "Roboto, sans-serif",
     color: "#041836",
     marginTop: "60px",
+    marginBottom: "72px",
     padding: "10px",
   },
   header: {
