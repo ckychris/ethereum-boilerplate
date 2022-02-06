@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/ethereum-boilerplate/static/css/main.ed83e829.chunk.css",
-    "main.js": "/ethereum-boilerplate/static/js/main.0bf92eb2.chunk.js",
-    "main.js.map": "/ethereum-boilerplate/static/js/main.0bf92eb2.chunk.js.map",
+    "main.js": "/ethereum-boilerplate/static/js/main.bdb882c0.chunk.js",
+    "main.js.map": "/ethereum-boilerplate/static/js/main.bdb882c0.chunk.js.map",
     "runtime-main.js": "/ethereum-boilerplate/static/js/runtime-main.dcb22532.js",
     "runtime-main.js.map": "/ethereum-boilerplate/static/js/runtime-main.dcb22532.js.map",
     "static/css/2.7393f959.chunk.css": "/ethereum-boilerplate/static/css/2.7393f959.chunk.css",
-    "static/js/2.26719f8e.chunk.js": "/ethereum-boilerplate/static/js/2.26719f8e.chunk.js",
-    "static/js/2.26719f8e.chunk.js.map": "/ethereum-boilerplate/static/js/2.26719f8e.chunk.js.map",
+    "static/js/2.4c55163f.chunk.js": "/ethereum-boilerplate/static/js/2.4c55163f.chunk.js",
+    "static/js/2.4c55163f.chunk.js.map": "/ethereum-boilerplate/static/js/2.4c55163f.chunk.js.map",
     "index.html": "/ethereum-boilerplate/index.html",
     "service-worker.js": "/ethereum-boilerplate/service-worker.js",
     "service-worker.js.map": "/ethereum-boilerplate/service-worker.js.map",
     "static/css/2.7393f959.chunk.css.map": "/ethereum-boilerplate/static/css/2.7393f959.chunk.css.map",
     "static/css/main.ed83e829.chunk.css.map": "/ethereum-boilerplate/static/css/main.ed83e829.chunk.css.map",
-    "static/js/2.26719f8e.chunk.js.LICENSE.txt": "/ethereum-boilerplate/static/js/2.26719f8e.chunk.js.LICENSE.txt",
-    "static/js/main.0bf92eb2.chunk.js.LICENSE.txt": "/ethereum-boilerplate/static/js/main.0bf92eb2.chunk.js.LICENSE.txt",
+    "static/js/2.4c55163f.chunk.js.LICENSE.txt": "/ethereum-boilerplate/static/js/2.4c55163f.chunk.js.LICENSE.txt",
+    "static/js/main.bdb882c0.chunk.js.LICENSE.txt": "/ethereum-boilerplate/static/js/main.bdb882c0.chunk.js.LICENSE.txt",
     "static/media/Coin98.1e4e4073.png": "/ethereum-boilerplate/static/media/Coin98.1e4e4073.png",
     "static/media/MathWallet.19212234.svg": "/ethereum-boilerplate/static/media/MathWallet.19212234.svg",
     "static/media/SafePal.e7068bbc.svg": "/ethereum-boilerplate/static/media/SafePal.e7068bbc.svg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.dcb22532.js",
     "static/css/2.7393f959.chunk.css",
-    "static/js/2.26719f8e.chunk.js",
+    "static/js/2.4c55163f.chunk.js",
     "static/css/main.ed83e829.chunk.css",
-    "static/js/main.0bf92eb2.chunk.js"
+    "static/js/main.bdb882c0.chunk.js"
   ]
 }
