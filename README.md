@@ -1,4 +1,4 @@
-# Comic babel - NFT comic pages collector
+# Infinite Comics - NFT comic pages collector
 
 ![the first comic made by the website](https://i.imgur.com/k5CFIPu.png)
 
@@ -17,3 +17,13 @@ Create and browse comic blocks online. Create a a collection of blocks to make a
 - Moralis boilerplate
 - NFTport
 - Polygon mainnet
+
+## TODO
+
+- Migrate to Nextjs, host on Vercel, perfect use case for static regeneration of comics.
+- Create unique hashes and metadata format to prevent double minting
+- Export and print comics in PDFs, html code and epub
+- Publish physical comics
+- Add an image URL option into the comics nft
+- Expand comic blocks design, add filtering, filming, animation API
+- SEO optimisations for comic blocks/page/book. Supports preview meta preview on twitter.
