@@ -39,7 +39,7 @@ export const Comic = () => {
       </div>
       <div className="panel">
         <p className="speech-left">
-          Click <NavLink to="/homepage">🔮 here</NavLink> to make histroy
+          Click <NavLink to="/homepage">🔮 here</NavLink> to make history
         </p>
         <p className="speech-right">Wow, let's do it!</p>
       </div>
